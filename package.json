@@ -1,23 +1,22 @@
 {
-  "name": "twitterconsumer",
-  "version": "1.0.0",
-  "description": "module to consume from twitter api",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dannielz/itau-twitter-consumer.git"
-  },
-  "author": "Danniel Sebastião Dias",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dannielz/itau-twitter-consumer/issues"
-  },
-  "homepage": "https://github.com/dannielz/itau-twitter-consumer#readme",
-  "dependencies": {
-    "dotenv": "^6.0.0",
-    "twitter": "^1.7.1"
-  }
+    "name": "twitterconsumer",
+    "version": "1.0.0",
+    "description": "module to consume from twitter api",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dannielz/itau-twitter-consumer.git"
+    },
+    "author": "Danniel Sebastião Dias",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dannielz/itau-twitter-consumer/issues"
+    },
+    "homepage": "https://github.com/dannielz/itau-twitter-consumer#readme",
+    "dependencies": {
+        "request": "^2.87.0"
+    }
 }

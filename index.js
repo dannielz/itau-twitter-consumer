@@ -63,14 +63,14 @@ var TwitterConsumer = function(keys) {
                 }
             } catch (parseError) {
                 return callback(
-                    new Error('JSON parseError with HTTP Status: ' + response.statusCode + ' ' + response.statusMessage),
+                    error,
                     data,
                     response
                 );
             }
             if (response.statusCode < 200 || response.statusCode > 299) {
                 return callback(
-                    new Error('HTTP Error: ' + response.statusCode + ' ' + response.statusMessage),
+                    error,
                     data,
                     response
                 );
